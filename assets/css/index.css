@@ -1,0 +1,88 @@
+/* i forgot to tell u this should always be the first thing u write in ur
+css file, u can see it got rid of the white space */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    background-color: black;
+}
+nav li{
+    color: white;
+    display: inline-block;
+    margin: 25px;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    nav a :hover{
+        color: greenyellow;        
+    }
+nav ul{
+    list-style: none;
+    text-align: center;
+    
+    
+}
+main{
+    background-color: lightgrey;
+    /* used this to reduce the empty space in the grey area */
+    height: 40em;
+}
+main h1{
+    text-align: center;
+}
+img{
+    /* used width and height to resize the image  */
+    width: 25%;
+    height: 30em;
+    /* used margin to push it to the right a little */
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 4px;
+    border-color: rgb(37, 26, 26);
+    border-radius: 20px;
+}
+/* used the div tag to place the paragraph and button in a container with a class 
+{evrtnontheright} to make it easier in position them the p and the button as the
+ are both in the same line */
+.evrtnontheright{
+    /* used text align center to make the text centered, like in ms word */
+    text-align: center;
+    /* used position relative left, and also bottom to set the {evrtnontheright} container
+    in the center of the right  */
+    position: relative;
+    left:45em;
+    bottom:28em;
+    /* used width to break the paragraph into lines instead of br */
+    width: 35em;
+    line-height: 5em;
+}
+main p{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+   'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 22px; 
+   /* font-weight: bold; */
+}
+footer{
+    background-color:black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+main button{
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    
+}
+footer button{
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 500px;
+}
